@@ -1,0 +1,55 @@
+@media only screen and (max-width:768px) {
+    .navbar  a{
+        display: none;
+    }
+    
+    .header{
+        height: 100%;
+    }
+    .banner__content {
+        margin-top: 0rem;
+        padding-bottom: 1rem;
+
+      }
+   .about  .about__content{
+        grid-template-columns: 1fr;
+    }
+    .service__content{
+        grid-template-columns: 1fr;
+    }
+    .service__content .item {
+        display: flex;
+        flex-direction: column;
+      }
+    .offer{
+        width: 100%;
+    }
+    .menu__content{
+        grid-template-columns: 1fr;
+    }
+      .test__content{
+        grid-template-columns: 1fr;
+    }
+
+    .online__content{
+        grid-template-columns: 1fr;
+    }
+.testimonial {
+    grid-template-columns: 1fr;
+}
+.footer__content{
+    grid-template-columns: 1fr;
+}
+.offer__content form {
+    width: 80%;
+ 
+  }
+  .offer__content form input{
+    width: 70%;
+
+  }
+  .offer__content form button{
+    width: 30%;
+    
+  }
+}
